@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIKUMBAH</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="cee06de7-8e5e-4d85-a38d-25adde32c062";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <!-- navbar #29c4a9-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: hwb(54 42% 6%)"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+        ><img src="img/favicon.ico" alt="" srcset=""><span style="color: #ffae00">DI</span>KUMBAH</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="layanan.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Layanan Kami</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="layanan.html">Laundry Kiloan</a></li>
+                <li><a class="dropdown-item" href="layanan.html">Laundry Satuan</a></li>
+                <li>
+                  <a class="dropdown-item" href="layanan.html"
+                    >Laundry Perlengkapan Bayi</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="layanan.html">Laundry Boneka</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="syarat.html">Syarat & Ketentuan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+  
+  <!-- video & form -->
+  <section id="about" class="about section-padding" style="background-color:hwb(54 42% 6%);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="about-video">
+            <video width="500" height="500" controls>
+              <source src="img/video1.mp4" type="video/mp4" />
+              <source src="img/video1.ogg" type="video/ogg" />
+              browser tidak didukung
+            </video>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5">
+          <div class="about-text container min-vh-100  justify-content-center">
+              <div class="mb-3">
+                <h2 class="mb-2">Order Form</h2><hr>
+                  <strong><p>Silahkan isi form dibawah untuk melakukan Order</p></strong>
+                  <strong><p>Order Form</p></strong>
+                  <section class="contact" id="contact">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-8 offset-sm-1">
+                          <form>
+                            <div class="form-group">
+                              <label for="nama">Nama</label>
+                                <input type="text" id="nama" class="form-control" placeholder="masukkan nama"/>
+                            </div>
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="masukkan email"/>
+                            </div>
+                            <div class="form-group">
+                              <label for="telp">No Telp</label>
+                                <input type="telp" id="telp" class="form-control" placeholder="masukkan no telepon"/>
+                            </div>
+                            <select class="form-control mt-3">
+                                  <option>---Pilih Layanan---</option>
+                                  <option>Layanan Kiloan</option>
+                                  <option>Layanan Satuan</option>
+                                  <option>Layanan Boneka</option>
+                                  <option>Layanan Peralatan Bayi</option>
+                            </select>
+                            <div class="form-group">
+                              <label for="pesan">Pesan</label>
+                                <textarea class="form-control" rows="5" placeholder="masukkan pesan"></textarea>
+                                </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Kirim Pesan
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                </form>
+            </form>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- footer -->
+<footer class=" text-white pt-5 pb-4" style="background-color: #333;">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h3 class="text mb-4 font-bold text-light">
+            <span style="color: #1c9bac">DI</span>KUMBAH
+          </h3>
+          <p style="font-size: 20px;">
+            Tingkatkan Pengalaman Pencucian yang Lebih Berkualitas, Bersih dan
+            Hemat waktu. Diberitahukan kepada seluruh mahasiswa agar tidak
+            mencuci <span style="color: #1c9bac">pakaian</span> sendiri, sebab
+            tugas kalian adalah belajar bukan mencuci, Karena mencuci adalah
+            tugas kami.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h3 class="text mb-4 font-weight-bold text-info">Layanan</h3>
+          <p style="font-size: 20px;">
+            <a href="layanan.html" class="text-white" style="text-decoration: none"
+              >Layanan Kiloan</a
+            >
+          </p>
+          <p style="font-size: 20px;">
+            <a href="layanan.html" class="text-white" style="text-decoration: none"
+              >Layanan Satuan</a
+            >
+          </p>
+          <p style="font-size: 20px;">
+            <a href="layanan.html" class="text-white" style="text-decoration: none"
+              >Layanan Boneka</a
+            >
+          </p>
+          <p style="font-size: 20px;">
+            <a href="layanan.html" class="text-white" style="text-decoration: none"
+              >Layanan Peralatan Bayi</a
+            >
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h3 class="text mb-4 font-weight-bold text-info">Contact</h3>
+          <p>
+            <i class="fas fa-home mr-3"></i>
+            <a
+              href="https://maps.app.goo.gl/Y36Z2LrVthrn8ptv9"
+              class="btn-floating btn-sm text-white"
+              style="text-decoration: none"
+              >Jl. Masjid Nurul Huda Salakbrojo No.14, Pra'an, Salakbrojo, Kec. Kedungwuni,
+              Kabupaten Pekalongan, Jawa Tengah 51173</a
+            >
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i>
+            <a
+              href="https://wa.me/+6285700160403"
+              class="btn-floating btn-sm text-white"
+              style="text-decoration: none"
+              >dikumbah@gmail.com</a
+            >
+          </p>
+          <p>
+            <i class="fab fa-whatsapp"></i
+            ><a
+              href="https://wa.me/+6285700160403"
+              class="btn-floating btn-sm text-white"
+              style="text-decoration: none"
+            >
+            +62 857 0016 0403</a
+            >
+          </p>
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.instagram.com/zidnifazaa_/profilecard/?igsh=cGsweG9tbmc1ZmNz"
+                  class="btn-floating btn-sm text-white"
+                  style="font-size: 23px"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://github.com/fazazidni?tab=repositories"
+                  class="btn-floating btn-sm text-white"
+                  style="font-size: 23px"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.youtube.com/@ITSNUPekalongan"
+                  class="btn-floating btn-sm text-white"
+                  style="font-size: 23px"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="mb-4" />
+      <div class="row align-items-center">
+        <div class="col-md-12">
+          <p style="font-size: 15px;">
+            Copyright &copy; 2024 All rights reserved by :
+            <a href="#" style="text-decoration: none"
+                ><strong class="text-info">Muhammad Zidni Faza</strong></a
+              >
+          </p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
